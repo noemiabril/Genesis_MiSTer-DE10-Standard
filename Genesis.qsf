@@ -68,10 +68,10 @@ source sys/sys.tcl
 source sys/sys_analog.tcl
 source files.qip
 
-set_global_assignment -name VERILOG_FILE sys/audio_shifter.v
+#set_global_assignment -name VERILOG_FILE sys/audio_shifter.v
 set_global_assignment -name VERILOG_FILE sys/I2C_Controller.v
 set_global_assignment -name VERILOG_FILE sys/I2C_AV_Config.v
-set_global_assignment -name VERILOG_FILE sys/audio_top.v
+#set_global_assignment -name VERILOG_FILE sys/audio_top.v
 
 
 
